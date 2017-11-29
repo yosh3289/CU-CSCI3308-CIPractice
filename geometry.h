@@ -1,8 +1,8 @@
 /*
  * geometry.h
- * Andy Sayler
+ * Yongbo Shu
  * CSCI 3308
- * Summer 2014
+ * Nov,28 2017
  *
  * This file contains a simple geomtery functions.
  *
@@ -24,3 +24,5 @@ bool coord_2d_eq(const coord_2d_t* a, const coord_2d_t* b);
 
 /* Calculate the midpoint between two 2D coordinates and load into mid */
 void coord_2d_midpoint(coord_2d_t* mid, const coord_2d_t* a, const coord_2d_t* b);
+/* Calculate the area of this triangle */
+double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const coord_2d_t* c);

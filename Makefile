@@ -1,6 +1,6 @@
-# Andy Sayler
+# Yongbo Shu
 # CI Practice
-# Summer 2014
+# Nov,28 2017
 
 CC = gcc
 CFLAGS = -c -g -Wall -Wextra
